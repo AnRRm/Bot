@@ -1,0 +1,56 @@
+{
+  "name": "Movie Bot",
+  "description": "Movie Bot with The Movie DB & Recast.AI",
+  "env": {
+    "RE_BOT_TOKEN": {
+      "description": "Recast bot token",
+      "value":"",
+      "required":false
+    },  
+    "MOVIE_DB_TOKEN_BOT_TOKEN": {
+      "description": "Movie DB access token",
+      "value":"",
+      "required":false
+    },  
+	"REQUEST_TOKEN": {
+      "description": "REQUEST_TOKEN",
+      "value":"",
+      "required":false
+    }, 
+    "LANGUAGE": {
+      "description": "Bot default language",
+      "value":"",
+      "required":false
+    },  
+    "PORT": {
+      "description": "Default port",
+      "value":"",
+      "required":false
+    },
+	"FB_TOKEN": {
+      "description": "Facebook token",
+      "value":"",
+      "required":false
+    },
+	"OPENWEATHER_TOKEN": {
+      "description": "open weather token",
+      "value":"",
+      "required":false
+    },
+	"NEWSAPI_TOKEN": {
+      "description": "News API token",
+      "value":"",
+      "required":false
+    },
+	"MONSIEUR":  {
+      "description": " Monsieur ",
+      "value":"",
+      "required":false
+    },
+	"MADAME":  {
+      "description": " MADAME ",
+      "value":"",
+      "required":false
+    }
+  }
+}
